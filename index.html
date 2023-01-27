@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/WebFusion.png" type="image/icon type">
+  <meta charset="UTF-8">
+  <meta content="ScoreBoard" description="Author: Gael Mahe, this is a simple score board counter">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Score board</title>
+</head>
+<body>
+<header>
+  <H1 class="logo"><span>Web</span>Fusion</H1>
+<nav>
+  <ul>
+    <li>Home</li>
+    <li>Contact</li>
+  </ul>
+</nav>
+<div class="social">
+<a target="_blank" href="https://github.com/gaelmahe1"><img src="assets/Vector.png" alt="GitHub logo"></a>
+<a target="_blank" href="https://twitter.com/webfusionfr"><img src="assets/Vector-1.png" alt="Twitter logo"></a>
+</div>
+</header>
+<div class="container">
+
+  <section class="intro">
+  <h1 class="big-font">JavaScript Projects</h1>
+  <p class="small-font">Gael Mahe</p>
+  <p class="small-font">These are projects you can find on  my github if you wish to modify them</p>
+  <p class="small-font">This page is used to showcase the JavaScript projects i have completed</p>
+</section>
+
+<div class="counter">
+  <h1 class="big-font">JavaScript Counters</h1>
+  <div class="scoreboard">
+    <div class="home">
+      <h1>HOME</h1>
+      <div id="home" class="screen-home">0</div>
+       <button onclick="add1Home()" class="btn-score">+1</button>
+       <button onclick="add2Home()" class="btn-score">+2</button>
+       <button onclick="add3Home()" class="btn-score">+3</button>
+       <div>
+        <button onclick="resetHome()" class="btn-score">RESET</button>
+       </div>
+    </div>
+
+    <div class="guest">
+      <h1>GUEST</h1>
+      <div id="guest" class="screen-guest">0</div>
+      <button onclick="add1Guest()" class="btn-score">+1</button>
+       <button onclick="add2Guest()" class="btn-score">+2</button>
+       <button onclick="add3Guest()" class="btn-score">+3</button>
+       <div>
+        <button onclick="resetGuest()" class="btn-score">RESET</button>
+       </div>
+    </div>
+
+  </div>
+  <p class="mid-font desc">This is a counter for a basketball match that keeps track of the scores during a game.</p>
+  <p class="small-font">GitHub Link:</p>
+   <a class="small-font" target="_blank" href="https://github.com/gaelmahe1/Counter-app.git">Link Here 👈</a>
+</div>
+
+</div>
+  
+
+<script src="index.js"></script>
+</body>
+</html>
